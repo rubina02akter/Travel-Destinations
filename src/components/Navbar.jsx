@@ -74,7 +74,7 @@ console.log(user)
                <a onClick={handleSignOut} className="btn">Sign out</a>
             </>
             :
-            <Link to='/login'>Log in</Link>
+            <Link className="btn btn-outline" to='/login'>Log in</Link>
           
         }
       </div>
