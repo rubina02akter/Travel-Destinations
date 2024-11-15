@@ -1,0 +1,5 @@
+/* Global CSS to round all images in SimpleImageSlider */
+.simple-image-slider img {
+  border-radius: 20px; /* Adjust the radius as needed */
+  object-fit: cover;  /* Ensures the images fill their container without distortion */
+}
